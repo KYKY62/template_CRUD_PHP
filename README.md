@@ -2,4 +2,4 @@
 Gimme Gimme Star
 
 
-<h1>Sistem Informasi 4</h1>
+<h1 style="color: red;">Sistem Informasi 4</h1>
