@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Aplikasi CRUD Sederhana</title>
+	<title>Template</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="utils/style.css">
 	<link rel="stylesheet" href="utils/responsive.css">
@@ -14,43 +14,40 @@
 <body>
 	<section id="topHeader" class="my-5 ">
 		<div>
-			<img src="images/logosi4.png" alt="" srcset="" class="logo">
+			<img src="images/ilhaebg.png" alt="" srcset="" class="logo">
 		</div>
 		<div class="header">
-			<h1>Data Mahasiswa Sistem Informasi 4</h1>
+			<h1>Ini Judul</h1>
 		</div>
 		<div class="navigation ">
-			<a href="">Home</a>
-			<a href="">About</a>
-			<a href="">Journey</a>
-			<a href="">Member</a>
-			<a href="">Galery</a>
-			<a href="">Berita</a>
+			<a href="">SI4</a>
+			<a href="">SI4</a>
+			<a href="">SI4</a>
+			<a href="">SI4</a>
+
 		</div>
 	</section>
 	<div class="container">
 		<div class="row">
-			<div class="justify-content-center">
+			<div>
 
 				<div class="navigation-main mb-3">
-					<a class="btn btn-success" href="tambah.php">Tambah</a>
-					<a class="btn btn-danger" href="index.php">LogOut</a>
+					<a class="btn btn-primary" href="tambah.php">Tambah</a>
+					<a class="btn btn-primary" href="index.php">LogOut</a>
 				</div>
 
-				<table class="table table-bordered table-hover table-responsive">
+				<table class="table">
 					<tr>
 						<th>
-							Category ID
+							ID
 						</th>
 						<th>
-							Category Name
+							Name
 						</th>
 						<th>
-							Category Text
+							Text
 						</th>
-						<th>
-							Opsi
-						</th>
+
 					</tr>
 					<?php
 
@@ -72,9 +69,9 @@
 								<?php echo $row['cat_text']; ?>
 							</td>
 							<td>
-								<a class="btn btn-success ms-2 me-2" href="detail.php?id=<?php echo $row['cat_id']; ?>">Detail</a>
-								<a class="btn btn-success  me-2" href="edit.php?id=<?php echo $row['cat_id']; ?>">Edit</a>
-								<a class="btn btn-danger" href="hapus.php?id=<?php echo $row['cat_id']; ?>">Hapus</a>
+								<a class="btn btn-primary ms-2 me-2" href="detail.php?id=<?php echo $row['cat_id']; ?>">Detail</a>
+								<a class="btn btn-primary  me-2" href="edit.php?id=<?php echo $row['cat_id']; ?>">Edit</a>
+								<a class="btn btn-primary" href="hapus.php?id=<?php echo $row['cat_id']; ?>">Hapus</a>
 							</td>
 						</tr>
 					<?php
@@ -85,19 +82,20 @@
 		</div>
 	</div>
 	<!-- Footer -->
+	<!-- // !! ubah warna -->
 	<footer class="footer-section mb-0" id="about">
 
 		<div class="footer-left">
-			<img src="images/logosi4.png" alt="">
-			<h3>Data Mahasiswa Sistem Informasi 4</h3>
-
+			<img src="images/ilhaebg.png" alt="">
+			<h3>Kreasikan Sendiri ya jgn mirip ini</h3>
+			<!-- property  -->
 			<p class="footer-company-name">&copy; Copyright <span>Rizky Akbar</span> Si-Four. All Rights
 				Reserved.</p>
 		</div>
 
 		<div class="footer-right">
 			<div>
-				<p style="margin: 10px; line-height: 1.5;">Alamat :<span> JL TUNTUNGAN KAMPUS UINSU (20236)</span>
+				<p style="margin: 10px; line-height: 1.5;">Alamat :<span> Jalan Merdeka dari belanda</span>
 				</p>
 			</div>
 
@@ -111,7 +109,7 @@
 				<p>
 					<a href="" class="email">
 						<span>Email :</span>
-						SiFour@gmail.com
+						jagongoding@gmail.com
 					</a>
 				</p>
 			</div>

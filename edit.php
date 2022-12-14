@@ -11,24 +11,22 @@
 
     <link rel="stylesheet" href="utils/style.css">
     <link rel="stylesheet" href="utils/responsive.css">
-    <title>Aplikasi CRUD Sederhana</title>
+    <title>Template</title>
 </head>
 
 <body>
     <section id="topHeader" class="my-5 ">
         <div>
-            <img src="images/logosi4.png" alt="" srcset="" class="logo">
+            <img src="images/ilhaebg.png" alt="" srcset="" class="logo">
         </div>
         <div class="header">
-            <h1>Data Mahasiswa Sistem Informasi 4</h1>
+            <h1>Template CRUD Sederhana</h1>
         </div>
         <div class="navigation ">
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Journey</a>
-            <a href="">Member</a>
-            <a href="">Galery</a>
-            <a href="">Berita</a>
+
         </div>
     </section>
     <?php
@@ -42,17 +40,17 @@
     <div class="container">
         <form role="form" method="post" action="update.php" class="w-50 m-auto">
             <div class="form-check">
-                <label>Kategory Nama</label>
+                <label>nama</label>
                 <input type="hidden" name="cat_id" value="<?php echo $row['cat_id']; ?>">
                 <input class="form-control" name="cat_name" value="<?php echo $row['cat_name']; ?>">
             </div>
             <div class="form-check">
-                <label>Kategory Text</label>
+                <label>Text</label>
                 <input class="form-control" name="cat_text" value="<?php echo $row['cat_text']; ?>">
             </div>
             <div class="form-check">
-                <button type="submit" class="btn btn-success pull-right mt-3 me-3">Simpan</button>
-                <a href="home.php" class="btn btn-danger pull-right mt-3">Batal</a>
+                <button type="submit" class="btn btn-primary pull-right mt-3 me-3">Simpan</button>
+                <a href="home.php" class="btn btn-primary pull-right mt-3">Batal</a>
             </div>
         </form>
 

@@ -2,5 +2,5 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "pertemuan15";
+$database = "genap";
 $connect = new mysqli($host, $user, $password, $database);

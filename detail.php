@@ -11,24 +11,21 @@
 
 	<link rel="stylesheet" href="utils/style.css">
 	<link rel="stylesheet" href="utils/responsive.css">
-	<title>Aplikasi CRUD Sederhana</title>
+	<title>template</title>
 </head>
 
 <body>
 	<section id="topHeader" class="my-5 ">
 		<div>
-			<img src="images/logosi4.png" alt="" srcset="" class="logo">
+			<img src="images/ilhaebg.png" alt="" srcset="" class="logo">
 		</div>
 		<div class="header">
-			<h1>Data Mahasiswa Sistem Informasi 4</h1>
+			<h1>Template CRUD Sederhana</h1>
 		</div>
 		<div class="navigation ">
 			<a href="">Home</a>
 			<a href="">About</a>
 			<a href="">Journey</a>
-			<a href="">Member</a>
-			<a href="">Galery</a>
-			<a href="">Berita</a>
 		</div>
 	</section>
 	<?php
@@ -42,13 +39,13 @@
 	?>
 	<div class="container w-50">
 		<p>
-			<a class="btn btn-success" href="home.php">Kembali</a>
+			<a class="btn btn-primary" href="home.php">Kembali</a>
 		</p>
 
-		<table class="table table-bordered table-hover table-responsive ">
+		<table class="table  ">
 			<tr>
 				<td style="width:10%;">
-					Category ID
+					ID
 				</td>
 				<td>
 					<?php echo $row['cat_id']; ?>
@@ -56,7 +53,7 @@
 			</tr>
 			<tr>
 				<td>
-					Category Name
+					Name
 				</td>
 				<td>
 					<?php echo $row['cat_name']; ?>
@@ -64,7 +61,7 @@
 			</tr>
 			<tr>
 				<td>
-					Category Text
+					Text
 				</td>
 				<td>
 					<?php echo $row['cat_text']; ?>

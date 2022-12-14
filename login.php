@@ -14,9 +14,7 @@ $row = mysqli_fetch_assoc($result);
 
 
 if ($row > 1) {
-        if ($username == $row['username'] && $password == $row['password']) {
-                header('location:home.php');
-        }
+        header('location:home.php');
 } else {
         header('location:index.php');
 }
