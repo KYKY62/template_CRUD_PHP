@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 14 Des 2022 pada 09.23
+-- Generation Time: 19 Des 2022 pada 08.48
 -- Versi Server: 10.1.19-MariaDB
 -- PHP Version: 7.0.13
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `pertemuan15`
+-- Database: `genap`
 --
 
 -- --------------------------------------------------------
@@ -43,6 +43,13 @@ CREATE TABLE `tb_category` (
   `cat_name` varchar(50) NOT NULL,
   `cat_text` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `tb_category`
+--
+
+INSERT INTO `tb_category` (`cat_id`, `cat_name`, `cat_text`) VALUES
+(1, 'a', 'a');
 
 -- --------------------------------------------------------
 
@@ -71,6 +78,24 @@ CREATE TABLE `tb_post` (
   `post_text` text NOT NULL,
   `post_date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `user`
+--
+
+CREATE TABLE `user` (
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `user`
+--
+
+INSERT INTO `user` (`username`, `password`) VALUES
+('admin', 'admin');
 
 --
 -- Indexes for dumped tables
@@ -117,7 +142,7 @@ ALTER TABLE `tb_album`
 -- AUTO_INCREMENT for table `tb_category`
 --
 ALTER TABLE `tb_category`
-  MODIFY `cat_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `cat_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `tb_photos`
 --
