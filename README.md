@@ -1,4 +1,4 @@
-# template_CRUD_PHP
+# Template_CRUD_PHP
 
 Repository ini digunakan untuk Template Pembuatan Website CRUD
 
@@ -8,7 +8,7 @@ Repository ini digunakan untuk Template Pembuatan Website CRUD
 
 ![screencapture-localhost-template-CRUD-Genap-home-php-2023-01-13-17_54_10](https://user-images.githubusercontent.com/77371920/212303517-7e4f5928-52d3-4c55-9733-61c4a13be621.png)
 
-## Features RAS GAS
+## Features
 
 - Login
 - Logout
@@ -19,7 +19,7 @@ Repository ini digunakan untuk Template Pembuatan Website CRUD
 
 ## Tech
 
-Website RAS GAS dibangun menggunakan :
+Website Template_CRUD_PHP dibangun menggunakan :
 
 - [HTML] - bahasa markah standar untuk membangun sebuah website.
 - [CSS] - Cascading Style Sheet digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML.
